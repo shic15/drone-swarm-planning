@@ -1,0 +1,26 @@
+[0.020s] Invoking command in '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub -- -j12 -l12
+[0.076s] [35m[1mScanning dependencies of target talker[0m
+[0.107s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.029s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.203s] [100%] Built target talker
+[3.214s] Invoked command in '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub -- -j12 -l12
+[3.262s] Invoking command in '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub
+[3.274s] -- Install configuration: ""
+[3.275s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[3.275s] -- Set runtime path of "/home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[3.276s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[3.276s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[3.276s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[3.276s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[3.276s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[3.276s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[3.277s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[3.277s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[3.277s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[3.277s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[3.278s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[3.278s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[3.281s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[3.281s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[3.282s] -- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[3.283s] Invoked command in '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub

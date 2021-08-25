@@ -1,0 +1,65 @@
+[0.016s] Invoking command in '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/shic/Projects/drone-swarm-planning/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub
+[0.083s] -- The C compiler identification is GNU 9.3.0
+[0.143s] -- The CXX compiler identification is GNU 9.3.0
+[0.147s] -- Check for working C compiler: /usr/bin/cc
+[0.243s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.245s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.360s] -- Detecting C compile features
+[0.360s] -- Detecting C compile features - done
+[0.362s] -- Check for working CXX compiler: /usr/bin/c++
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.462s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.580s] -- Detecting CXX compile features
+[0.580s] -- Detecting CXX compile features - done
+[0.582s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.607s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.607s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.777s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.837s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.968s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.004s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.153s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.155s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.157s] -- Looking for pthread.h
+[1.258s] -- Looking for pthread.h - found
+[1.258s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.349s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.350s] -- Looking for pthread_create in pthreads
+[1.433s] -- Looking for pthread_create in pthreads - not found
+[1.434s] -- Looking for pthread_create in pthread
+[1.537s] -- Looking for pthread_create in pthread - found
+[1.539s] -- Found Threads: TRUE  
+[1.752s] -- Configuring done
+[1.760s] -- Generating done
+[1.761s] -- Build files have been written to: /home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub
+[1.767s] Invoked command in '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/shic/Projects/drone-swarm-planning/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub
+[1.773s] Invoking command in '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub -- -j12 -l12
+[1.826s] [35m[1mScanning dependencies of target talker[0m
+[1.912s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.643s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.836s] [100%] Built target talker
+[4.848s] Invoked command in '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub -- -j12 -l12
+[4.899s] Invoking command in '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub
+[4.910s] -- Install configuration: ""
+[4.910s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[4.911s] -- Set runtime path of "/home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[4.911s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.911s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.911s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.911s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.911s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.911s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.912s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.912s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.912s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.912s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.912s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.912s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.913s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.913s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.913s] -- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.914s] Invoked command in '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub

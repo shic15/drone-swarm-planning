@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.001320] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001732] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.016734] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.018757] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.018974] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'shic'), ('SSH_AGENT_PID', '2210'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/shic'), ('OLDPWD', '/home/shic/Projects/drone-swarm-planning/dev_ws/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/shic/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1804'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/shic/Projects/drone-swarm-planning/dev_ws/install'), ('LOGNAME', 'shic'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:48959'), ('UPDATE_ZSH_DAYS', '13'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'shic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/shic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/shic-Legion-5:@/tmp/.ICE-unix/2245,unix/shic-Legion-5:/tmp/.ICE-unix/2245'), ('INVOCATION_ID', '5ce33815849b46a9ac2df55d6372aacd'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d135df80_2871_4cfa_a0b4_469979c4e3c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub:/home/shic/Projects/drone-swarm-planning/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/1'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub:/home/shic/Projects/drone-swarm-planning/dev_ws/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[0.063838] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.090983] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.098740] (-) TimerEvent: {}
+[0.199137] (-) TimerEvent: {}
+[0.263817] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.299286] (-) TimerEvent: {}
+[0.302282] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.306510] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.399654] (-) TimerEvent: {}
+[0.453330] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499854] (-) TimerEvent: {}
+[0.506322] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.508657] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600036] (-) TimerEvent: {}
+[0.649327] (cpp_pubsub) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.700196] (-) TimerEvent: {}
+[0.759954] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.772800] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.774583] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub\n'}
+[0.800338] (-) TimerEvent: {}
+[0.805056] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.842324] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.900484] (-) TimerEvent: {}
+[1.000935] (-) TimerEvent: {}
+[1.101356] (-) TimerEvent: {}
+[1.201827] (-) TimerEvent: {}
+[1.302288] (-) TimerEvent: {}
+[1.402772] (-) TimerEvent: {}
+[1.503194] (-) TimerEvent: {}
+[1.603714] (-) TimerEvent: {}
+[1.704486] (-) TimerEvent: {}
+[1.805049] (-) TimerEvent: {}
+[1.905465] (-) TimerEvent: {}
+[2.005891] (-) TimerEvent: {}
+[2.106340] (-) TimerEvent: {}
+[2.206774] (-) TimerEvent: {}
+[2.307198] (-) TimerEvent: {}
+[2.407631] (-) TimerEvent: {}
+[2.508041] (-) TimerEvent: {}
+[2.608399] (-) TimerEvent: {}
+[2.708861] (-) TimerEvent: {}
+[2.809394] (-) TimerEvent: {}
+[2.909792] (-) TimerEvent: {}
+[3.010191] (-) TimerEvent: {}
+[3.110629] (-) TimerEvent: {}
+[3.211017] (-) TimerEvent: {}
+[3.311423] (-) TimerEvent: {}
+[3.411824] (-) TimerEvent: {}
+[3.512183] (-) TimerEvent: {}
+[3.612608] (-) TimerEvent: {}
+[3.664396] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.712853] (-) TimerEvent: {}
+[3.813303] (-) TimerEvent: {}
+[3.865260] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[3.882740] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[3.912125] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[3.914086] (-) TimerEvent: {}
+[3.923222] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub'], 'cwd': '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'shic'), ('SSH_AGENT_PID', '2210'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/shic'), ('OLDPWD', '/home/shic/Projects/drone-swarm-planning/dev_ws/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/shic/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1804'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/shic/Projects/drone-swarm-planning/dev_ws/install'), ('LOGNAME', 'shic'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:48959'), ('UPDATE_ZSH_DAYS', '13'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'shic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/shic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/shic-Legion-5:@/tmp/.ICE-unix/2245,unix/shic-Legion-5:/tmp/.ICE-unix/2245'), ('INVOCATION_ID', '5ce33815849b46a9ac2df55d6372aacd'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d135df80_2871_4cfa_a0b4_469979c4e3c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub:/home/shic/Projects/drone-swarm-planning/dev_ws/install/my_package:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/shic/Projects/drone-swarm-planning/dev_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/1'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub:/home/shic/Projects/drone-swarm-planning/dev_ws/install/my_package:/opt/ros/foxy')]), 'shell': False}
+[3.937165] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.937807] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[3.938257] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[3.938537] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[3.938689] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[3.938926] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[3.939129] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[3.939268] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[3.939405] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[3.939579] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[3.939715] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[3.939855] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[3.939988] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[3.940126] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[3.940271] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[3.940483] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[3.940666] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[3.941094] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/shic/Projects/drone-swarm-planning/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[3.942040] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[4.007743] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[4.008936] (-) EventReactorShutdown: {}
